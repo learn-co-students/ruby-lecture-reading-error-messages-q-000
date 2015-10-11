@@ -1,3 +1,4 @@
 x = 1
-
-x = 
+if x > 0
+  puts "yes"
+end

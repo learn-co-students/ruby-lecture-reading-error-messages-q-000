@@ -1,3 +1,4 @@
 x = 1
 
-x = 
+# x =
+# if we assign x to something which is valid, it should assinged to something

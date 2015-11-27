@@ -1,3 +1,3 @@
-1 + 1
+sum = 1 + 1
 
-1 + "is the loneliest number"
+my_string = %{1} + "is the loneliest number"

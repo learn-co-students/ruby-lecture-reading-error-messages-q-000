@@ -1,3 +1,3 @@
 1 + 1
 
-puts "Joe "+ "is not short for Joseph" +"...or is it?"
+puts "5 " +"+ 5 = 10"

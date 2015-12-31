@@ -1,3 +1,3 @@
 1 + 1
 
-puts "Joe"+ "is the loneliest number"
+puts "Joe "+ "is not short for Joseph" +"...or is it?"

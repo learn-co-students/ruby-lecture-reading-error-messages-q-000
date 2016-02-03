@@ -1,3 +1,3 @@
-"hello world"
+MyfirstString = "hello world"
 
-hello_world
+hello_world = MyfirstString

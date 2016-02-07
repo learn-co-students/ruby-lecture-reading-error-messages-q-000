@@ -1,3 +1,3 @@
 1 + 1
 
-1 + "is the loneliest number"
+"new string" + "is the loneliest number"

@@ -1,3 +1,8 @@
 x = 1
 
-x = 
+puts x
+
+x = 3
+
+puts x
+

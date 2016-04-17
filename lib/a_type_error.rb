@@ -1,3 +1,7 @@
 1 + 1
 
-1 + "is the loneliest number"
+1 + 2
+
+"hello!"
+
+x=7

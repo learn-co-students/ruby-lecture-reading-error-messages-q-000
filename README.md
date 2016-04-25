@@ -51,7 +51,7 @@ The interpreter does the best job it can to tell you what it thinks went wrong.
 (NameError)
 ```
 
-This is a [Ruby Error Type](http://www.ruby-doc.org/core-2.2.0/Exception.html).
+This is a [Ruby Error Type]().
 
 You've solved games of *Clue* with less information. This is my favorite part of programming, debugging, fixing errors. It's like you're a detective solving a crime. The only bad thing is that more often than not, you're also the criminal that caused the error in the first place.
 

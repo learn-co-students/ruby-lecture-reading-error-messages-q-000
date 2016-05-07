@@ -1,3 +1,3 @@
 "hello world"
-
-hello_world
+# I like fixing things
+$hello_world = 10

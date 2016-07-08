@@ -1,3 +1,4 @@
 x = 1
-
-x = 
+def x
+  return 1
+end

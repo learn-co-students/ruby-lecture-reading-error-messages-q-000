@@ -7,6 +7,8 @@ describe "Not having any errors and being all green" do
       }.to_not raise_error
     end
   end
+end
+
 
   context 'SyntaxError' do
     it 'raises a SyntaxError for nonsensical code' do

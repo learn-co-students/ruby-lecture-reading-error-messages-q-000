@@ -4,7 +4,7 @@ describe "Not having any errors and being all green" do
     it 'raises a NameError when encountering undefined barewords' do
       expect{
         load './lib/a_name_error.rb'
-      }.to_not raise_error
+      }.to_not raise_error(NameError)
     end
   end
 
@@ -12,7 +12,7 @@ describe "Not having any errors and being all green" do
     it 'raises a SyntaxError for nonsensical code' do
       expect{
         load './lib/a_syntax_error.rb'
-      }.to_not raise_error
+      }.to_not raise_error(SyntaxError)
     end
   end
 
@@ -20,7 +20,7 @@ describe "Not having any errors and being all green" do
     it 'raises a TypeError for objects of the wrong type' do
       expect{
         load './lib/a_type_error.rb'
-      }.to_not raise_error
+      }.to_not raise_error(TypeError)
     end
   end
 
@@ -28,7 +28,7 @@ describe "Not having any errors and being all green" do
     it 'raises a ZeroDivisionError for dividing by zero' do
       expect{
         load './lib/a_division_by_zero_error.rb'
-      }.to_not raise_error
+      }.to_not raise_error(ZeroDivisionError)
     end
   end
 end

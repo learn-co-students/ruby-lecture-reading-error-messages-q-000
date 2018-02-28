@@ -1,3 +1,6 @@
 1 + 1
 
-1 + "is the loneliest number"
+loneliestNumber = "One"
+ending = "that you'll ever do."
+
+puts loneliestNumber + " is the loneliest number " + ending

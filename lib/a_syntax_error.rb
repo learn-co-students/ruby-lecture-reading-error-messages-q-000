@@ -1,3 +1,3 @@
-x = 1
+2. times do
 
-x = 
+puts "hi" end

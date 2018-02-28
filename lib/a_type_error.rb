@@ -1,3 +1,5 @@
 1 + 1
 
-1 + "is the loneliest number"
+error = "1 " + "is the loneliest number"
+
+puts error

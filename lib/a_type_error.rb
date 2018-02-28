@@ -1,3 +1,3 @@
 1 + 1
-
-1 + "is the loneliest number"
+str = String.new( "is the loneliest number" )
+1 + str.length

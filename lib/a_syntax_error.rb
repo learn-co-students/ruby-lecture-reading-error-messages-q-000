@@ -1,3 +1,2 @@
-x = 1
-
-x = 
+40.times do puts "hi"
+end

@@ -1,3 +1,4 @@
-1 + 1
+is_the_loneliest_number = 1
 
-1 + "is the loneliest number"
+Number = 1 + is_the_loneliest_number
+puts Number

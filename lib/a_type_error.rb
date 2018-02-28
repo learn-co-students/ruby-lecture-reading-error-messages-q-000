@@ -1,3 +1,3 @@
 1 + 1
 
-1 + "is the loneliest number"
+puts "5 " +"+ 5 = 10"

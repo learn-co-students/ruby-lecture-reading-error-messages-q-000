@@ -1,3 +1,3 @@
-1 + 1
+a = 1 + 1
 
-1 + "is the loneliest number"
+b = "is the loneliest number"

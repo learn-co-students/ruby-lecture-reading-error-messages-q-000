@@ -53,7 +53,7 @@ The interpreter does the best job it can to tell you what it thinks went wrong.
 
 This is a [Ruby Error Type](http://www.ruby-doc.org/core-2.2.0/Exception.html).
 
-You've solved games of *Clue* with less information. This is one of the best parts of programming: debugging and fixing errors. It's like you're a detective solving a crime. The only bad thing is that more often than not, you're also the criminal that caused the error in the first place.
+You've solved games of *Clue* with less information. This is one of the most important parts of programming: debugging and fixing errors. It's like you're a detective solving a crime. The only bad thing is that more often than not, you're also the criminal that caused the error in the first place.
 
 Errors are clues, and reading them is the interpreter telling you what to do to fix the program and move on.
 

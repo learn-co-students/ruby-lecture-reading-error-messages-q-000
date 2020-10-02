@@ -1,25 +1,25 @@
-# Intro to Reading Ruby Error Messages
+# Reading Ruby Error Messages{introduction}
 
-## Overview
+## Overview...
 
 In this lab, you'll be reading error messages from tests. This lab is designed so that both running the files *and* running the test suite via the `learn` command will show the error messages for you to decode. Moving forward though, you'll be reading error messages mainly through running the test suite.
 
 Get started by opening this lab by pressing the Open button on the toolbar so you can follow along with the video and solve this lab.
 
-## Objectives
+## Objectives...
 
 1. Read the three different parts of an error message.
 2. Identify four error types- name errors, syntax errors, type errors, and division errors- and fix them
 3. Describe a test suite, where it's found in a lab, and its purpose
 4. Use the `learn` command in terminal to run the tests for a lab.
 
-## Video
+## Video...
 
 <iframe width="960" height="720" src="https://www.youtube.com/embed/L_eoziYKLXw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 [Download MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-reading-error-messages/ruby-lecture-reading-error-messages.mp4)
 
-## Reading Error Messages
+## Reading Error Messages...
 
 Error messages have 3 parts:
 
@@ -76,7 +76,7 @@ Will result in:
 ```
 Here, Ruby is saying that on line 2, there is a missing `end` (every `do` keyword must be followed by some code and then an `end` keyword). Always read the full details of syntax errors and look for line numbers, which usually appear at the beginning of the error message.
 
-### Type Errors
+### Type Errors...
 
 When you try and do a mathematical operation on two objects of a different type, you will receive a TypeError.  For example if you try and add a string to an integer, Ruby will complain.
 
@@ -89,17 +89,17 @@ Will produce the following error:
 TypeError: String can't be coerced into Fixnum
 ```
 
-### Division Errors
+### Division Errors...
 DivisionErrors are caused when a given number is divided by 0.
 
-## What is a Test Suite?
+## What is a Test Suite?...
 
 The tests for each lab will be found inside the `spec` directory of that lab. Tests are programs, written using the RSpec testing library, that are written to make sure your program is running properly. Generally, tests will call on the methods you define in your programs and check to see if they are working the way they are expected to.
 
 In the future, you will learn how to read tests more thoroughly and even how to write your own tests. For now, all you need to understand is that the code in the `spec` directory is there to test the code in your program. When you run the `learn` or the `rspec` command in your terminal in the directory of the lab you are working on, that runs the code in your `spec` file and tests your program. The output that appears in your terminal is the result of running those tests. If you pass a test, the output will generally appear green, otherwise, it will appear red and be accompanied by the types of error messages that we're discussing in this README. Paying attention to those error messages will help you to pass the test.
 
 
-## Instructions
+## Instructions...
 
 STOP. If you haven't watched the above video, you are making life much harder for yourself! Watch the video lecture above before attempting this lab. : )
 
@@ -124,3 +124,4 @@ Feel proud. Being able to read an error message and fix it, no matter how basic,
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-lecture-reading-error-messages' title='Intro to Reading Ruby Error Messages'>Intro to Reading Ruby Error Messages</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/ruby-lecture-reading-error-messages'>Reading Error Messages</a> on Learn.co and start learning to code for free.</p>
+.............................................................xxx.......................xxx.....................................................................................
